@@ -13,3 +13,16 @@ Create a variable storing you first name written in lowercase. Using a string me
 Use the split method to split the following sentence at each comma: "I wish, I wish, I was a fish."
 
 """
+#Author: Jon Morris
+word = "flibbertigibbet"
+a = word.find("t")
+print (a)
+print (word [a + 1: a +2])
+
+name = "Jon Morris"
+capsname = name.swapcase()
+print (capsname)
+
+sentence = "I wish, I wish, I wish a fish"
+splits = sentence.split (",")
+print (splits)
